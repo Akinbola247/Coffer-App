@@ -7,7 +7,7 @@ Coffer App is a decentralized application (DApp) designed to revolutionize the w
 - Deployment Address : https://goerli.lineascan.build/address/0x59EF6d0261B81B2De45E9326450C3087c2CdBAB8
 - github repo frontend : [https://github.com/Akinbola247/Coffer-App]
 - Smart Contract : [https://github.com/vicsnet/NAVH]
-- Demo : https://youtu.be/V2ceEj65VYc
+- Demo : https://youtu.be/O1OjURD9E0Y
 
 
 ## Background
