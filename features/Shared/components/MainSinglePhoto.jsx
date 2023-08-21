@@ -1,5 +1,9 @@
+import useFetchURI from "@/hooks/useFetchURI"
 
 export default function MainSinglePhoto({close , uri}) {
+  const {data} = useFetchURI(uri)
+  const trimmedUri = data?.image?.substring(7)
+  
   return (
     <main className="fixed w-[100%] h-screen max-h-screen min-h-screen  bg-[#F5F6FF] -mt-[200px] -ml-[326px]  smDesktop:-ml-[295.99px] tabletAir:-ml-[288px] tablet:-ml-[38px] mobile:-ml-[19px] z-[1]">
 
@@ -16,7 +20,7 @@ export default function MainSinglePhoto({close , uri}) {
             </div>
         </div>
         <div className="w-[100%] px-auto">
-            <img src={`https://ipfs.io/ipfs/${uri}`} alt="" className="w-[45%] lgDesktop:w-[48%] smDesk:w-[600px] tabletAir:w-[500px] mx-auto tabletAir:mt-[60px] mobile:mt-[120px] "/>
+            <img src={`https://ipfs.io/ipfs/${trimmedUri}`} alt="" className="w-[45%] lgDesktop:w-[48%] smDesk:w-[600px] tabletAir:w-[500px] mx-auto tabletAir:mt-[60px] mobile:mt-[120px] "/>
         </div>
         </section>
     </main>
