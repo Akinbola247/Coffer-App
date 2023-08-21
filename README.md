@@ -1,38 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coffer App - Secure Blockchain Photo Sharing
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+Coffer App is a decentralized application (DApp) designed to revolutionize the way users share photos on the blockchain. Leveraging the power of the Linea Testnet, Infura, Metamask SDK, and Truffle for deployment, this project addresses the challenge of secure and immutable photo sharing on the blockchain.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Background
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project was submitted for the "Make a Dapp that slaps, No cap" bounty. In this bounty, we recognized the need for a blockchain-based solution to address the inherent issues with centralized photo-sharing platforms. By utilizing blockchain technology, we aim to provide users with a secure and trustless way to share their photos without relying on third-party intermediaries.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Problem Statement
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Traditional photo-sharing platforms often suffer from issues related to censorship, and centralization. Users are typically required to trust a single entity with their personal photos, leaving them vulnerable to data breaches and misuse. Coffer App aims to address these issues by allowing users to share photos securely on the blockchain. Users simply provide an address, and their photos are stored in an immutable and transparent manner.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Decentralized Photo Sharing:** Users can upload and share photos on the blockchain without relying on a central authority.
+- **Immutable Storage:** All shared photos are stored on-chain, ensuring data integrity and preventing unauthorized alterations.
+- **Secure Access:** Metamask SDK integration provides users with secure access to the app, enhancing wallet security and user trust.
+- **Linea Testnet:** The Linea Testnet infrastructure ensures a reliable and cost-effective environment for testing and deployment.
+- **Scalability:** Future plans include making the app available on other blockchain networks to increase its reach and usability.
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Solidity:** Smart contracts are written in Solidity to facilitate secure interactions on the blockchain.
+- **Nextjs:** The user interface is built using React to provide an intuitive and responsive user experience.
+- **JavaScript:** JavaScript is used for application logic and interaction with the blockchain.
+- **IPFS:** InterPlanetary File System (IPFS) is employed for efficient and decentralized file storage.
+- **Metamask SDK:** Metamask SDK ensures secure wallet management and blockchain interactions.
+- **Truffle:** Truffle is used for streamlined smart contract deployment and development.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Plans
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Our future plans for Coffer App include expanding its availability across multiple blockchain networks, making it a versatile and widely accessible solution for secure photo sharing. We aim to continuously improve the app's scalability, security, and user experience based on user feedback and evolving blockchain technologies.
 
-## Deploy on Vercel
+Coffer App is not just a photo-sharing platform; it's a step towards a more decentralized and user-centric internet, where individuals have greater control over their data and privacy. With a strong foundation built on blockchain and innovative technologies, Coffer App is set to disrupt the way we share and protect our photos online.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
