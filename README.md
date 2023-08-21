@@ -4,6 +4,12 @@
 
 Coffer App is a decentralized application (DApp) designed to revolutionize the way users share photos on the blockchain. Leveraging the power of the Linea Testnet, Infura, Metamask SDK, and Truffle for deployment, this project addresses the challenge of secure and immutable photo sharing on the blockchain.
 
+- Deployment Address : https://goerli.lineascan.build/address/0x59EF6d0261B81B2De45E9326450C3087c2CdBAB8
+- github repo frontend : [https://github.com/Akinbola247/Coffer-App]
+- Smart Contract : [https://github.com/vicsnet/NAVH]
+- Demo : https://youtu.be/V2ceEj65VYc
+
+
 ## Background
 
 The project was submitted for the "Make a Dapp that slaps, No cap" bounty. In this bounty, we recognized the need for a blockchain-based solution to address the inherent issues with centralized photo-sharing platforms. By utilizing blockchain technology, we aim to provide users with a secure and trustless way to share their photos without relying on third-party intermediaries.
